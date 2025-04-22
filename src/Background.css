@@ -1,0 +1,49 @@
+body {
+    background: radial-gradient(ellipse at bottom, #003d29 0%, #000000 100%);
+     position: relative;
+     height: 100%;
+     width: 100%;
+     margin: 0;
+   }
+   .stars {
+     position: absolute;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     width: 100%;
+     height: 100%;
+     display: block;
+   }
+
+   .stars::before {
+     content: '';
+     position: absolute;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     width: 100%;
+     height: 100%;
+     display: block;
+     background: url(./assets/images/stars.png) repeat top center;
+     animation: zoom 50s linear infinite;
+   }
+
+   .stars::after {
+     content: '';
+     position: absolute;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     width: 100%;
+     height: 100%;
+     display: block;
+     background: url(./assets/images/stars.png) repeat
+   }
+   
+
+   
+    
+  
