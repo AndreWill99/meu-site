@@ -26,13 +26,13 @@ const projects = [
     {
       title: "contagem populacional",
       description: "contagem populacional em tempo real do Brasil e Mundo",
-      image: "contagem_pop.png",
+      image: "/images/contagem_pop.png",
       link: "https://metricas-a.vercel.app"
     },
     {
       title: "JustGo",
       description: "Descrição do Projeto 4",
-      image: "justgo.png",
+      image: "/images/justgo.png",
       link: "https://www.behance.net/gallery/224256961/JustGO"
     },
   ];
@@ -73,7 +73,6 @@ const Projects: React.FC = () => {
             <Typography variant="h6" color="primary.contrastText">{project.title}</Typography>
             <Typography variant="body2" color="primary.contrastText">{project.description}</Typography>
             <Button 
-              
               
               variant="outlined"
               color="inherit"
