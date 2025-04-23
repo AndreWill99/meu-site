@@ -1,16 +1,14 @@
 import { Box, Container, Grid, Typography, styled, Avatar } from "@mui/material";
 
 import { useEffect, useRef } from "react";
-import githubicon from '/public/images/githubcvlogo.png';
-import linkedinicon from "/public/images/linkedin cv logo.png";
-import behanceicon from "/public/images/behance cv logo.png";
-import wppicon from "/public/images/wpp cv logo.png";
-import emailicon from "/public/images/email cv logo.png";
+import githubicon from '/images/githubcvlogo.png';
+import linkedinicon from "/images/linkedin_cv_logo.png";
+import behanceicon from "/images/behance_cv_logo.png";
+import wppicon from "/images/wpp_cv_logo.png";
+import emailicon from "/images/email_cv_logo.png";
 
 
 const Hero = () => {
-
-
 
   const StyledHero = styled("div")(() => ({
     height: "100vh",
@@ -89,7 +87,7 @@ const Hero = () => {
                 <Box position={"relative"} top={0} left={0} width="100%" height="80%" display="flex" justifyContent="center" alignItems="center">
                 <StyledAvatar 
                     alt="perfil" 
-                    src="public/images/perfil.png" 
+                    src="/images/perfil.png" 
 
                 />
 
@@ -108,7 +106,7 @@ const Hero = () => {
             <Grid container justifyContent="center" alignItems="center" spacing={3} padding={5}>
               <Grid item xs={12} md={12} display="flex" justifyContent="center" alignItems="center">
                 <SocialIcon
-                  src={behanceicon}
+                  src="/images/behance_cv_logo.png" 
                   alt="Behance logo"
                   onClick={handleClick("https://www.behance.net/andrwcabral")}
                 />
