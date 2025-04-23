@@ -1,6 +1,7 @@
 import { Box, Container, Grid, Typography, styled, Avatar } from "@mui/material";
 
 import { useEffect, useRef } from "react";
+import githubicon from "public/images/github cv logo.png";
 
 
 const Hero = () => {
@@ -108,7 +109,7 @@ const Hero = () => {
                   onClick={handleClick("https://www.behance.net/andrwcabral")}
                 />
                 <SocialIcon
-                  src="public/images/github cv logo.png"
+                  src={githubicon}
                   alt="Github logo"
                   onClick={handleClick("https://github.com/AndreWill99")}
                 />
