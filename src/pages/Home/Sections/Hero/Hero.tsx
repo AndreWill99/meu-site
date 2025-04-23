@@ -3,7 +3,6 @@ import { Box, Container, Grid, Typography, styled, Avatar } from "@mui/material"
 import { useEffect, useRef } from "react";
 import githubicon from '/images/githubcvlogo.png';
 import linkedinicon from "/images/linkedin_cv_logo.png";
-import behanceicon from "/images/behance_cv_logo.png";
 import wppicon from "/images/wpp_cv_logo.png";
 import emailicon from "/images/email_cv_logo.png";
 
