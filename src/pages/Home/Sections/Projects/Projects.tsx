@@ -6,30 +6,35 @@ import "slick-carousel/slick/slick-theme.css";
 import "../Projects/Projects.css"; // Estilização opcional
 import Button from '@mui/material/Button';
 
+import prontosos from "/public/images/prontoSOS.png";
+import justGo from "/public/images/justGo.png";
+import dashboard from "/public/images/dashboard estetica.png";  
+import contagem from "/public/images/contagem_pop.png";
+
 
 const projects = [
     {
       title: "ProntoSOS",
       description: "otimização de filas de pronto atendimento",
-      image: "public/images/prontoSOS.png",
+      image: prontosos,
       link: "https://www.behance.net/gallery/179952303/Projeto-ProntoSOS"
     },
     {
       title: "Dashboard figma",
       description: "Dashboard de uma clínica de estética",
-      image: "public/images/dashboard estetica.png",
+      image: dashboard,
       link: "https://www.behance.net/gallery/180402561/Dashboard-Estetica"
     },
     {
       title: "contagem populacional",
       description: "contagem populacional em tempo real do Brasil e Mundo",
-      image: "public/images/contagem_pop.png",
+      image: contagem,
       link: "https://metricas-a.vercel.app"
     },
     {
       title: "JustGo",
       description: "Descrição do Projeto 4",
-      image: "public/images/justGo.png",
+      image: justGo,
       link: "https://www.behance.net/gallery/224256961/JustGO"
     },
   ];

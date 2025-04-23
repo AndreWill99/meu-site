@@ -1,8 +1,11 @@
 import { Box, Container, Grid, Typography, styled, Avatar } from "@mui/material";
 
 import { useEffect, useRef } from "react";
-import githubicon from "public/images/github cv logo.png";
-import linkedinicon from "public/images/linkedin cv logo.png";
+import githubicon from '/public/images/githubcvlogo.png';
+import linkedinicon from "/public/images/linkedin cv logo.png";
+import behanceicon from "/public/images/behance cv logo.png";
+import wppicon from "/public/images/wpp cv logo.png";
+import emailicon from "/public/images/email cv logo.png";
 
 
 const Hero = () => {
@@ -105,7 +108,7 @@ const Hero = () => {
             <Grid container justifyContent="center" alignItems="center" spacing={3} padding={5}>
               <Grid item xs={12} md={12} display="flex" justifyContent="center" alignItems="center">
                 <SocialIcon
-                  src="public/images/behance CV logo.png"
+                  src={behanceicon}
                   alt="Behance logo"
                   onClick={handleClick("https://www.behance.net/andrwcabral")}
                 />
@@ -120,12 +123,12 @@ const Hero = () => {
                   onClick={handleClick("https://www.linkedin.com/in/andre-william-costa-33b873172/")}
                 />
                 <SocialIcon
-                  src="public/images/wpp cv logo.png"
+                  src={wppicon}
                   alt="Whatsapp"
                   onClick={handleClick("https://wa.me/+554198452031")}
                 />
                 <SocialIcon
-                  src="public/images/email cv logo.png"
+                  src={emailicon}
                   alt="email logo"
                   onClick={handleClick("mailto:andrewilliam2012@hotmail.com")}
                 />

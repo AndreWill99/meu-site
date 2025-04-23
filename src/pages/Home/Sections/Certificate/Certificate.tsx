@@ -3,34 +3,39 @@ import Slider from "react-slick";
 import { Box, Paper, Typography, Button } from "@mui/material";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import ccna from "/public/images/CCNAITN__1_.png";
+import oracle from "/public/images/C_Oracle.png";
+import rhacademy from "/public/images/C_RedHat.png";
+import guxui from "/public/images/C_UXUI_Google.png";
+
 
 const certificates = [
   {
     title: "Cisco Network",
     emitente: "Cisco NetAcademy",
     description: "Redes de Computadores",
-    image: "public/images/CCNAITN__1_.png",
+    image: ccna,
     link: "https://www.credly.com/badges/8bd1f0a5-2cae-471b-b11a-3124c2ad70d9/public_url"
   },
   {
     title: "Database Programming with SQL",
     emitente: "Oracle",
     description: "Banco de dados Oracle",
-    image: "public/images/c_Oracle.png",
+    image: oracle,
     link: "https://academy.oracle.com/en/oa-new-member-hub.html"
   },
   {
     title: "Red Hat System Administration I (RH124)",
     emitente: "Red Hat",
     description: "Linux e Sistemas Operacionais",
-    image: "public/images/c_RedHat.png",
+    image: rhacademy,
     link: "https://rha.ole.redhat.com/rha/api/certificates/attendance/uuid/37b279bd-cac3-4bf6-ae71-9ead6f8b9f9a"
   },
   {
     title: "Foundations of User Experience (UX) Design",
     emitente: "Google",
     description: "Experiência do usuário (UX) · UX/UI · Design de experiência do usuário (UX)",
-    image: "public/images/C_UXUI_Google.png",
+    image: guxui,
     link: "https://www.coursera.org/account/accomplishments/verify/QA7TORU3KM5Z"
   },
 ];
