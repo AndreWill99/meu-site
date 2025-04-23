@@ -32,7 +32,7 @@ const projects = [
     {
       title: "JustGo",
       description: "Descrição do Projeto 4",
-      image: "/images/justgo.png",
+      image: "/images/justGo.png",
       link: "https://www.behance.net/gallery/224256961/JustGO"
     },
   ];
