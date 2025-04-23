@@ -84,7 +84,7 @@ const Hero = () => {
                 <Box position={"relative"} top={0} left={0} width="100%" height="80%" display="flex" justifyContent="center" alignItems="center">
                 <StyledAvatar 
                     alt="perfil" 
-                    src="/src/assets/images/perfil.png" 
+                    src="public/images/perfil.png" 
 
                 />
 
@@ -103,27 +103,27 @@ const Hero = () => {
             <Grid container justifyContent="center" alignItems="center" spacing={3} padding={5}>
               <Grid item xs={12} md={12} display="flex" justifyContent="center" alignItems="center">
                 <SocialIcon
-                  src="src/assets/images/behance CV logo.png"
+                  src="public/images/behance CV logo.png"
                   alt="Behance logo"
                   onClick={handleClick("https://www.behance.net/andrwcabral")}
                 />
                 <SocialIcon
-                  src="src/assets/images/github cv logo.png"
+                  src="public/images/github cv logo.png"
                   alt="Github logo"
                   onClick={handleClick("https://github.com/AndreWill99")}
                 />
                 <SocialIcon
-                  src="src/assets/images/linkedin cv logo.png"
+                  src="public/images/linkedin cv logo.png"
                   alt="Linkedin"
                   onClick={handleClick("https://www.linkedin.com/in/andre-william-costa-33b873172/")}
                 />
                 <SocialIcon
-                  src="src/assets/images/wpp cv logo.png"
+                  src="public/images/wpp cv logo.png"
                   alt="Whatsapp"
                   onClick={handleClick("https://wa.me/+554198452031")}
                 />
                 <SocialIcon
-                  src="src/assets/images/email cv logo.png"
+                  src="public/images/email cv logo.png"
                   alt="email logo"
                   onClick={handleClick("mailto:andrewilliam2012@hotmail.com")}
                 />

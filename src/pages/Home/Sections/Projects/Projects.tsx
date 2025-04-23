@@ -11,25 +11,25 @@ const projects = [
     {
       title: "ProntoSOS",
       description: "otimização de filas de pronto atendimento",
-      image: "src/assets/images/prontoSOS.png",
+      image: "public/images/prontoSOS.png",
       link: "https://www.behance.net/gallery/179952303/Projeto-ProntoSOS"
     },
     {
       title: "Dashboard figma",
       description: "Dashboard de uma clínica de estética",
-      image: "src/assets/images/dashboard estetica.png",
+      image: "public/images/dashboard estetica.png",
       link: "https://www.behance.net/gallery/180402561/Dashboard-Estetica"
     },
     {
       title: "contagem populacional",
       description: "contagem populacional em tempo real do Brasil e Mundo",
-      image: "src/assets/images/contagem_pop.png",
+      image: "public/images/contagem_pop.png",
       link: "https://metricas-a.vercel.app"
     },
     {
       title: "JustGo",
       description: "Descrição do Projeto 4",
-      image: "/images/justGo.png",
+      image: "public/images/justGo.png",
       link: "https://www.behance.net/gallery/224256961/JustGO"
     },
   ];

@@ -9,28 +9,28 @@ const certificates = [
     title: "Cisco Network",
     emitente: "Cisco NetAcademy",
     description: "Redes de Computadores",
-    image: "src/assets/images/CCNAITN__1_.png",
+    image: "public/images/CCNAITN__1_.png",
     link: "https://www.credly.com/badges/8bd1f0a5-2cae-471b-b11a-3124c2ad70d9/public_url"
   },
   {
     title: "Database Programming with SQL",
     emitente: "Oracle",
     description: "Banco de dados Oracle",
-    image: "src/assets/images/c_Oracle.png",
+    image: "public/images/c_Oracle.png",
     link: "https://academy.oracle.com/en/oa-new-member-hub.html"
   },
   {
     title: "Red Hat System Administration I (RH124)",
     emitente: "Red Hat",
     description: "Linux e Sistemas Operacionais",
-    image: "src/assets/images/c_RedHat.png",
+    image: "public/images/c_RedHat.png",
     link: "https://rha.ole.redhat.com/rha/api/certificates/attendance/uuid/37b279bd-cac3-4bf6-ae71-9ead6f8b9f9a"
   },
   {
     title: "Foundations of User Experience (UX) Design",
     emitente: "Google",
     description: "Experiência do usuário (UX) · UX/UI · Design de experiência do usuário (UX)",
-    image: "src/assets/images/C_UXUI_Google.png",
+    image: "public/images/C_UXUI_Google.png",
     link: "https://www.coursera.org/account/accomplishments/verify/QA7TORU3KM5Z"
   },
 ];
