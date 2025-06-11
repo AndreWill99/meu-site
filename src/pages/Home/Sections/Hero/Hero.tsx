@@ -122,7 +122,7 @@ const Hero = () => {
                 <SocialIcon
                   src={wppicon}
                   alt="Whatsapp"
-                  onClick={handleClick("https://wa.me/+554198452031")}
+                  onClick={handleClick("https://wa.me/+554184520931")}
                 />
                 <SocialIcon
                   src={emailicon}
