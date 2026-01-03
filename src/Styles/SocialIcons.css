@@ -1,0 +1,20 @@
+/* socialIcons.css */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  background-size: cover;
+  filter: brightness(0) invert(1);
+}
+
+.behance { background-image: url('../assets/behance.svg'); }
+.github { background-image: url('../assets/github.svg'); }
+.linkedin { background-image: url('../assets/linkedin.svg'); }
+.email { background-image: url('../assets/email.svg'); }
