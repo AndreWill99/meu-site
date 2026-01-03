@@ -53,7 +53,7 @@ const Infos: React.FC = () => {
                                 Bacharelado UVV
                             </Typography>
                             <Typography color="primary.contrastText" variant="body1" align="center">
-                                2020 - 2025
+                                2020 - 2026
                             </Typography>
                         </CardContent>
                     </Card>
