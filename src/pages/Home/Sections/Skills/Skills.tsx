@@ -11,7 +11,6 @@ import {
   SiReact as ReactIcon,
   SiTypescript as TypeScriptIcon,
   SiTailwindcss as TailwindIcon,
-  SiMui as MuiIcon,
   SiBootstrap as BootstrapIcon,
   SiFigma as FigmaIcon,
   SiGithub as GithubIcon,
@@ -20,8 +19,6 @@ import {
   SiPython as PythonIcon,
   SiAdobephotoshop as PhotoshopIcon,
   SiAdobeillustrator as IllustratorIcon,
-  SiAdobeindesign as IndesignIcon,
-
   
 } from 'react-icons/si';
 
