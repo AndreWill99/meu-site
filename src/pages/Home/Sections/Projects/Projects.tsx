@@ -11,29 +11,40 @@ import Button from '@mui/material/Button';
 
 const projects = [
     {
+      title: "EbacRoad",
+      description: "Protótipo desenvolvido para o bootcamp da EbacRoad",
+      image: "/images/EbacRoad.png",
+      
+      link: "https://www.behance.net/gallery/179952303/Projeto-ProntoSOS"
+    },
+
+    {
       title: "ProntoSOS",
       description: "otimização de filas de pronto atendimento",
       image: "/images/prontoSOS.png",
       
       link: "https://www.behance.net/gallery/179952303/Projeto-ProntoSOS"
     },
+
     {
       title: "Dashboard figma",
       description: "Dashboard de uma clínica de estética",
       image: "/images/dashboard_estetica.png",
       link: "https://www.behance.net/gallery/180402561/Dashboard-Estetica"
     },
-    {
-      title: "contagem populacional",
-      description: "contagem populacional em tempo real do Brasil e Mundo",
-      image: "/images/contagem_pop.png",
-      link: "https://metricas-a.vercel.app"
-    },
+
     {
       title: "JustGo",
       description: "Descrição do Projeto 4",
       image: "/images/justGo.png",
       link: "https://www.behance.net/gallery/224256961/JustGO"
+    },
+
+    {
+      title: "contagem populacional",
+      description: "contagem populacional em tempo real do Brasil e Mundo",
+      image: "/images/contagem_pop.png",
+      link: "https://metricas-a.vercel.app"
     },
   ];
 

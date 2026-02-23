@@ -21,7 +21,6 @@ import {
   SiAdobephotoshop as PhotoshopIcon,
   SiAdobeillustrator as IllustratorIcon,
   SiAdobeindesign as IndesignIcon,
-  SiLinux as LinuxIcon,
 
   
 } from 'react-icons/si';
@@ -47,12 +46,10 @@ const skillsData: {
       { name: 'React', icon: <ReactIcon color='white'/> },
       { name: 'TypeScript', icon: <TypeScriptIcon color='white'/> },
       { name: 'Tailwind CSS', icon: <TailwindIcon color='white'/> },
-      { name: 'Material UI', icon: <MuiIcon color='white'/> },
       { name: 'Bootstrap', icon: <BootstrapIcon color='white'/> },
       { name: 'Figma', icon: <FigmaIcon color='#ffffff'/> },
       { name: 'Photoshop', icon: <PhotoshopIcon color='#ffffff'/> },
       { name: 'Illustrator', icon: <IllustratorIcon color='#ffffff'/> },
-      { name: 'Indesign', icon: <IndesignIcon color='#ffffff'/> },
       
 
     ],
@@ -65,9 +62,7 @@ const skillsData: {
       { name: 'Python', icon: <PythonIcon color='white'/> },
       { name: 'Git', icon: <GithubIcon color='white'/> },
       {name: 'Excel', icon: <ExcelIcon color='white'/> },
-      { name: 'Power BI', icon: <PowerBiIcon color='white'/> },
-      { name:'Linux', icon: <LinuxIcon color='white'/> },
-
+      { name: 'Power BI', icon: <PowerBiIcon color='white'/> }
 
     ],
   },
